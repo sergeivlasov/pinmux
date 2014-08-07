@@ -21,11 +21,14 @@ support and contact details.
 #include "tmp432.h"
 #include "ucd9081.h"
 
+<<<<<<< HEAD
 /* 
     07.08 changes 
     cloned
                     */
 
+=======
+>>>>>>> parent of 4c96f2e... 1st upd
 /*     
         This file contain VPD initialization methos,
         SDR initialization methods, and
