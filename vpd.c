@@ -21,6 +21,10 @@ support and contact details.
 #include "tmp432.h"
 #include "ucd9081.h"
 
+/* 
+    07.08 changes 
+                    */
+
 /*     
         This file contain VPD initialization methos,
         SDR initialization methods, and
