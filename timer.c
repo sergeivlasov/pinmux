@@ -47,7 +47,8 @@ void
 timer_initialize( void ) 
 {
 	timer_initialize_platform();
-	cq_init();
+	/* cq_init(); */
+    cq_init(); // new
 } // timer_initialize
 
 /*------------------------------------------------------------------------------
