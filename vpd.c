@@ -23,7 +23,7 @@ support and contact details.
 
 /* 
     07.08 changes 
-    branch=slave
+    branch=slave->master
                     */
 
 /*     
