@@ -23,7 +23,7 @@ support and contact details.
 
 /* 
     07.08 changes 
-    uncloned
+    branch=slave
                     */
 
 /*     
