@@ -32,6 +32,7 @@ am335x_pinmux_table[128] = {    // Table_data = (Pinmux_Reg_Address - 0x44E10800
 // reserved | slew: 0=fast | RX: 1=enabled | putype: 1=pullup | puen: 0=en  | mcode: 7=GPIO //
 //------------------------------------------------------------------------------------------//
 
+#if (0) /* unused block of code */
 const unsigned char
 am335x_pinmux_signals[128][8][12]=
 {/*GPIO0_00*/{"000........", "001........", "002.........", "003........", "004........", "005........", "006", "GPIO0_00",},
@@ -166,7 +167,7 @@ am335x_pinmux_signals[128][8][12]=
  /*GPIO3_30*/{"", "", "", "", "", "", "", ""},
  /*GPIO3_31*/{"", "", "", "", "", "", "", ""},
 }; // am335x_pinmux_signals
-
+#endif /* (0) */
 
 #if defined (__cplusplus)
 }
