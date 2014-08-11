@@ -21,9 +21,10 @@
  */
 #define CLIENT_REVISION_NUMBER (9)
 
+// will try creating patch
 // TODO:
-// 1. BBB pins
-// 2. opma pins
+// 1. 
+// 2. 
 // 3. activity test                 -- Rx must be enabled!
 // 4. drive probe (inputs, outputs) -- Rx must be enabled!
 
