@@ -22,7 +22,7 @@
 #define CLIENT_REVISION_NUMBER (9)
 
 // TODO:
-// 1. BBB pins
+// 1. 
 // 2. opma pins
 // 3. activity test                 -- Rx must be enabled!
 // 4. drive probe (inputs, outputs) -- Rx must be enabled!
