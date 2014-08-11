@@ -22,6 +22,7 @@
 #define CLIENT_REVISION_NUMBER (9)
 
 // r1
+// r2
 
 // will try creating patch
 // TODO:
