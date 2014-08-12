@@ -11,7 +11,7 @@ extern "C" {
 
 // Notes: 0xFF = no this pin.
 //        0xBB table data means "No this GPIO pinned to connector".
-//        Other values denote SODIMM200 pin numbers.
+//        Other values denote pins.
 const unsigned char
 opma335x_pinmux_table[128] = {    // Table_data = SODIMM200 pin number.
  // GPIO0
@@ -34,7 +34,7 @@ opma335x_pinmux_table[128] = {    // Table_data = SODIMM200 pin number.
 const unsigned char
 opma335x_pwr_domain_table[128] = {    // Table_data = 33==3v3, 18==1v8 domain, 0 = unknown
  // GPIO0
- 0xBB, 0xBB, 0xBB, 0xBB,    33,   33,   33,   33,    33,   33,   33,   33,  0xBB, 0xBB, 0xBB, 0xBB,
+ 0xBB, 0xBB,   33,   33,    33,   33,   33,   33,    33,   33,   33,   33,    33,   33,   33,   33,
    33,   33,   33,   33,    33, 0xBB,   18,   18,  0xFF, 0xFF,   18,   18,    33,   33,   33,   33,
  // GPIO1 ----------------------- 5/21--------------------------10/26--------12/28-------14/30-----
  0xBB, 0xBB, 0xBB, 0xBB,  0xBB, 0xBB, 0xBB, 0xBB,    33,   33,   33,   33,    18,   18,   18,   18,
