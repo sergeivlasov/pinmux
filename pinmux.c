@@ -19,11 +19,7 @@
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  *
  */
-#define CLIENT_REVISION_NUMBER (9)
-
-// r1
-// r2
-// r3
+#define CLIENT_REVISION_NUMBER (10)
 
 // will try creating patch
 // TODO:
